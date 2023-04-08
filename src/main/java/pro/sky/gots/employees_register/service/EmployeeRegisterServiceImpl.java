@@ -27,7 +27,7 @@ public class EmployeeRegisterServiceImpl implements EmployeesRegisterService {
         if (index != -1) {
             throw new EmployeeAlreadyAddedException();
         }
-        if (employees.size() == MAX_EMPLOYEES_COUNT) {
+        if (employees.size() >= MAX_EMPLOYEES_COUNT) {
             throw new EmployeeStorageIsFullException();
         }
         employees.add(employee);

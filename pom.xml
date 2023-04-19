@@ -11,8 +11,9 @@
     <groupId>pro.sky.gots</groupId>
     <artifactId>employees-register</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hogwarts</name>
-    <description>hogwarts</description>
+
+    <name>employees-register</name>
+    <description>Regitster of Employees</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -22,11 +23,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>

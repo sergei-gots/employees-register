@@ -8,7 +8,7 @@ import java.util.Random;
  *
  **/
 public final class EmployeeGenerator {
-    
+    /** static Random instance, could be available outside the class **/
     public static final Random random = new Random();
     /** Array, first names set **/
     private static final String[] firstNames = {"Ivan", "Petr", "Pavel"};
